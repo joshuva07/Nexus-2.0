@@ -1,0 +1,251 @@
+// ─── Career Dataset ─────────────────────────────────────────────────────────
+export const careers = [
+  {
+    id: 'software-engineer',
+    title: 'Software Engineer',
+    domain: 'Engineering',
+    emoji: '💻',
+    color: '#3b82f6',
+    salaryRange: { min: 70000, max: 180000, avg: 120000 },
+    demandScore: 95,
+    growthRate: 25,
+    jobRoles: ['Frontend Dev', 'Backend Dev', 'Full Stack Dev', 'Mobile Dev', 'DevOps'],
+    requiredSkills: ['JavaScript', 'Python', 'React', 'Node.js', 'SQL', 'Git', 'System Design'],
+    description: 'Design, build and maintain software systems that power the digital world.',
+    futureScope: 'AI-augmented development will expand the role to include ML engineering and LLM fine-tuning.',
+    topCourses: [
+      { name: 'The Complete Web Developer', provider: 'Udemy', rating: 4.8, url: '#' },
+      { name: 'CS50x', provider: 'Harvard/edX', rating: 4.9, url: '#' },
+      { name: 'Full Stack Open', provider: 'University of Helsinki', rating: 4.7, url: '#' },
+    ],
+    riskLevel: 'Low',
+    jobReadiness: 88,
+  },
+  {
+    id: 'data-scientist',
+    title: 'Data Scientist',
+    domain: 'Engineering',
+    emoji: '📊',
+    color: '#06b6d4',
+    salaryRange: { min: 80000, max: 200000, avg: 135000 },
+    demandScore: 92,
+    growthRate: 31,
+    jobRoles: ['ML Engineer', 'Data Analyst', 'AI Researcher', 'BI Analyst'],
+    requiredSkills: ['Python', 'Statistics', 'ML', 'SQL', 'TensorFlow', 'Data Viz', 'R'],
+    description: 'Extract insights from complex datasets to drive data-informed decisions.',
+    futureScope: 'GenAI will elevate data scientists to AI architects and strategy roles.',
+    topCourses: [
+      { name: 'IBM Data Science Professional', provider: 'Coursera', rating: 4.6, url: '#' },
+      { name: 'Fast.ai Deep Learning', provider: 'fast.ai', rating: 4.9, url: '#' },
+      { name: 'Machine Learning Specialization', provider: 'DeepLearning.AI', rating: 4.8, url: '#' },
+    ],
+    riskLevel: 'Low',
+    jobReadiness: 82,
+  },
+  {
+    id: 'product-manager',
+    title: 'Product Manager',
+    domain: 'Business',
+    emoji: '🎯',
+    color: '#f59e0b',
+    salaryRange: { min: 90000, max: 220000, avg: 150000 },
+    demandScore: 88,
+    growthRate: 19,
+    jobRoles: ['Senior PM', 'Director of Product', 'CPO', 'Growth PM'],
+    requiredSkills: ['Strategy', 'Analytics', 'Communication', 'Roadmapping', 'Agile', 'SQL', 'UX Research'],
+    description: 'Lead product vision, strategy, and cross-functional execution.',
+    futureScope: 'AI-native PM roles will require deep understanding of LLM capabilities and agent workflows.',
+    topCourses: [
+      { name: 'Product Management Fundamentals', provider: 'Product School', rating: 4.7, url: '#' },
+      { name: 'Become a Product Manager', provider: 'Udemy', rating: 4.6, url: '#' },
+      { name: 'Digital Product Management', provider: 'UVA/Coursera', rating: 4.5, url: '#' },
+    ],
+    riskLevel: 'Low',
+    jobReadiness: 75,
+  },
+  {
+    id: 'ux-designer',
+    title: 'UX Designer',
+    domain: 'Arts',
+    emoji: '🎨',
+    color: '#ec4899',
+    salaryRange: { min: 60000, max: 160000, avg: 100000 },
+    demandScore: 84,
+    growthRate: 16,
+    jobRoles: ['UI Designer', 'Product Designer', 'UX Researcher', 'Design Lead'],
+    requiredSkills: ['Figma', 'Wireframing', 'Prototyping', 'User Research', 'Accessibility', 'Design Systems'],
+    description: 'Craft intuitive user experiences that delight and engage.',
+    futureScope: 'AI-generated UI will shift focus to experience strategy, motion design, and 3D/AR interfaces.',
+    topCourses: [
+      { name: 'Google UX Design Certificate', provider: 'Google/Coursera', rating: 4.8, url: '#' },
+      { name: 'UI/UX Design Bootcamp', provider: 'Interaction Design Foundation', rating: 4.7, url: '#' },
+      { name: 'Design for Non-Designers', provider: 'Canva', rating: 4.5, url: '#' },
+    ],
+    riskLevel: 'Low',
+    jobReadiness: 79,
+  },
+  {
+    id: 'doctor',
+    title: 'Medical Doctor',
+    domain: 'Medical',
+    emoji: '🩺',
+    color: '#10b981',
+    salaryRange: { min: 100000, max: 400000, avg: 220000 },
+    demandScore: 90,
+    growthRate: 13,
+    jobRoles: ['General Practitioner', 'Specialist', 'Surgeon', 'Researcher'],
+    requiredSkills: ['Clinical Knowledge', 'Diagnosis', 'Patient Care', 'Research', 'Medical Ethics'],
+    description: 'Diagnose, treat, and prevent illness to improve patient health outcomes.',
+    futureScope: 'AI-assisted diagnostics will amplify doctor capabilities in precision medicine.',
+    topCourses: [
+      { name: 'Introduction to Clinical Medicine', provider: 'Duke/Coursera', rating: 4.7, url: '#' },
+      { name: 'Medical Neuroscience', provider: 'Duke/Coursera', rating: 4.8, url: '#' },
+      { name: 'Healthcare Data Science', provider: 'Stanford/edX', rating: 4.6, url: '#' },
+    ],
+    riskLevel: 'Very Low',
+    jobReadiness: 70,
+  },
+  {
+    id: 'cybersecurity-analyst',
+    title: 'Cybersecurity Analyst',
+    domain: 'Engineering',
+    emoji: '🔐',
+    color: '#6366f1',
+    salaryRange: { min: 75000, max: 170000, avg: 115000 },
+    demandScore: 97,
+    growthRate: 35,
+    jobRoles: ['SOC Analyst', 'Penetration Tester', 'Security Engineer', 'CISO'],
+    requiredSkills: ['Network Security', 'Ethical Hacking', 'SIEM', 'Python', 'Linux', 'Cryptography'],
+    description: 'Protect organizations from cyber threats and data breaches.',
+    futureScope: 'Zero-trust architecture and AI-driven threat detection are the new frontier.',
+    topCourses: [
+      { name: 'Google Cybersecurity Certificate', provider: 'Google/Coursera', rating: 4.8, url: '#' },
+      { name: 'CompTIA Security+', provider: 'CompTIA', rating: 4.7, url: '#' },
+      { name: 'Ethical Hacking Bootcamp', provider: 'TCM Security', rating: 4.9, url: '#' },
+    ],
+    riskLevel: 'Low',
+    jobReadiness: 77,
+  },
+  {
+    id: 'ai-engineer',
+    title: 'AI/ML Engineer',
+    domain: 'Engineering',
+    emoji: '🤖',
+    color: '#8b5cf6',
+    salaryRange: { min: 110000, max: 280000, avg: 180000 },
+    demandScore: 99,
+    growthRate: 42,
+    jobRoles: ['LLM Engineer', 'AI researcher', 'Prompt Engineer', 'MLOps'],
+    requiredSkills: ['Python', 'PyTorch', 'LLMs', 'Transformers', 'MLOps', 'RAG', 'CUDA'],
+    description: 'Build the AI systems that power the next generation of intelligent applications.',
+    futureScope: 'AI Engineers will become the most sought-after talent in the next decade.',
+    topCourses: [
+      { name: 'Deep Learning Specialization', provider: 'DeepLearning.AI', rating: 4.9, url: '#' },
+      { name: 'Hugging Face NLP Course', provider: 'Hugging Face', rating: 4.8, url: '#' },
+      { name: 'LLM Engineering Bootcamp', provider: 'Maven', rating: 4.7, url: '#' },
+    ],
+    riskLevel: 'Very Low',
+    jobReadiness: 80,
+  },
+  {
+    id: 'financial-analyst',
+    title: 'Financial Analyst',
+    domain: 'Business',
+    emoji: '💰',
+    color: '#f59e0b',
+    salaryRange: { min: 65000, max: 150000, avg: 95000 },
+    demandScore: 82,
+    growthRate: 11,
+    jobRoles: ['Investment Analyst', 'Risk Analyst', 'CFO', 'Quant Analyst'],
+    requiredSkills: ['Excel', 'Financial Modeling', 'Valuation', 'SQL', 'Python', 'CFA'],
+    description: 'Analyze financial data to guide investment and business decisions.',
+    futureScope: 'Quantitative and algorithmic finance increasingly require coding and ML skills.',
+    topCourses: [
+      { name: 'Financial Analyst Nanodegree', provider: 'Udacity', rating: 4.5, url: '#' },
+      { name: 'CFA Level 1 Prep', provider: 'Wiley', rating: 4.6, url: '#' },
+      { name: 'Excel for Finance', provider: 'CFI', rating: 4.7, url: '#' },
+    ],
+    riskLevel: 'Medium',
+    jobReadiness: 72,
+  },
+  {
+    id: 'content-creator',
+    title: 'Content Creator',
+    domain: 'Arts',
+    emoji: '🎬',
+    color: '#ef4444',
+    salaryRange: { min: 30000, max: 500000, avg: 80000 },
+    demandScore: 78,
+    growthRate: 22,
+    jobRoles: ['YouTuber', 'Podcaster', 'Brand Strategist', 'Social Media Manager'],
+    requiredSkills: ['Video Editing', 'Storytelling', 'SEO', 'Analytics', 'Personal Branding'],
+    description: 'Build audiences and monetize creative content across digital platforms.',
+    futureScope: 'AI-generated thumbnails, scripts, and voice cloning will extend reach dramatically.',
+    topCourses: [
+      { name: 'YouTube Masterclass', provider: 'Udemy', rating: 4.6, url: '#' },
+      { name: 'Digital Marketing Boot Camp', provider: 'Google', rating: 4.5, url: '#' },
+      { name: 'Storytelling for Business', provider: 'Coursera', rating: 4.4, url: '#' },
+    ],
+    riskLevel: 'High',
+    jobReadiness: 68,
+  },
+  {
+    id: 'cloud-architect',
+    title: 'Cloud Architect',
+    domain: 'Engineering',
+    emoji: '☁️',
+    color: '#0ea5e9',
+    salaryRange: { min: 120000, max: 250000, avg: 175000 },
+    demandScore: 94,
+    growthRate: 28,
+    jobRoles: ['Solutions Architect', 'Cloud Engineer', 'SRE', 'CTO'],
+    requiredSkills: ['AWS', 'GCP', 'Azure', 'Kubernetes', 'Terraform', 'Networking', 'Python'],
+    description: 'Design scalable, resilient cloud infrastructure for enterprise systems.',
+    futureScope: 'Multi-cloud and edge computing expertise will be critical through 2030.',
+    topCourses: [
+      { name: 'AWS Solutions Architect', provider: 'A Cloud Guru', rating: 4.8, url: '#' },
+      { name: 'Certified Kubernetes Admin', provider: 'Linux Foundation', rating: 4.7, url: '#' },
+      { name: 'Google Cloud Professional', provider: 'Google Cloud', rating: 4.8, url: '#' },
+    ],
+    riskLevel: 'Very Low',
+    jobReadiness: 85,
+  },
+];
+
+// Skill taxonomy
+export const allSkills = [
+  'JavaScript','Python','React','Node.js','SQL','Git','System Design',
+  'TypeScript','Java','Go','Rust','C++','R','MATLAB',
+  'Statistics','ML','TensorFlow','PyTorch','Data Viz','NLP',
+  'Figma','Wireframing','Prototyping','User Research','Accessibility','Design Systems',
+  'Strategy','Analytics','Communication','Roadmapping','Agile','UX Research',
+  'AWS','GCP','Azure','Kubernetes','Terraform','Docker','Linux',
+  'Network Security','Ethical Hacking','SIEM','Cryptography',
+  'Excel','Financial Modeling','Valuation','CFA',
+  'Video Editing','Storytelling','SEO','Personal Branding',
+  'Clinical Knowledge','Diagnosis','Patient Care','Medical Ethics',
+  'Public Speaking','Leadership','Project Management','Data Analysis',
+];
+
+// Domain list
+export const domains = ['Engineering', 'Medical', 'Business', 'Arts', 'All'];
+
+// Match career to user profile
+export function matchCareers(userSkills = [], domain = 'All', interests = '') {
+  return careers
+    .filter(c => domain === 'All' || c.domain === domain)
+    .map(career => {
+      const common = career.requiredSkills.filter(s =>
+        userSkills.some(us => us.toLowerCase().includes(s.toLowerCase()) || s.toLowerCase().includes(us.toLowerCase()))
+      );
+      const score = Math.min(
+        Math.round((common.length / career.requiredSkills.length) * 70 + Math.random() * 20 + 10),
+        99
+      );
+      const gaps = career.requiredSkills.filter(s =>
+        !userSkills.some(us => us.toLowerCase().includes(s.toLowerCase()))
+      );
+      return { ...career, matchScore: score, matchedSkills: common, knowledgeGaps: gaps };
+    })
+    .sort((a, b) => b.matchScore - a.matchScore);
+}
