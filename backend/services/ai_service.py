@@ -6,7 +6,7 @@ Falls back gracefully if no API key is configured.
 import httpx
 import json
 from typing import List, Dict, Optional
-from config import settings
+from backend.config import settings
 
 
 async def call_ai(

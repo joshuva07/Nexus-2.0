@@ -4,10 +4,10 @@ from pydantic import BaseModel
 from typing import List, Optional
 import json, os
 
-from database import get_db
-from models.models import User, UserSkill, KnowledgeGap
-from utils.jwt_auth import get_current_user
-from services.ai_service import call_ai
+from backend.database import get_db
+from backend.models.models import User, UserSkill, KnowledgeGap
+from backend.utils.jwt_auth import get_current_user
+from backend.services.ai_service import call_ai
 from ai.prompts import CAREER_RECOMMENDATION_PROMPT
 
 router = APIRouter()

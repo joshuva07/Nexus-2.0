@@ -3,11 +3,11 @@ from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 
-from database import get_db
-from models.models import User, UserResponse, Score
-from utils.jwt_auth import get_current_user
-from services.ai_service import call_ai
-from ai.prompts import FEEDBACK_ENGINE_PROMPT
+from backend.database import get_db
+from backend.models.models import User, UserResponse, Score
+from backend.utils.jwt_auth import get_current_user
+from backend.services.ai_service import call_ai
+from backend.ai.prompts import FEEDBACK_ENGINE_PROMPT
 import uuid
 
 router = APIRouter()
